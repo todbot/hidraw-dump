@@ -5,14 +5,19 @@ including, most importantly, HID Report Descriptors.
 
 ## Demo
 
+![screencast demo](docs/demo1.svg)
+
 
 ## Installation
 
+Prerequisites: `libudev` and `pkg-config`:
 ```
 apt-get install build-essential pkg-config libudev-dev
+
 git clone https://github.com/todbot/hidraw-dump
 cd hidraw-dump
 make
+
 sudo ./hidraw-dump
 ```
 
@@ -20,6 +25,7 @@ sudo ./hidraw-dump
 
 To parse the HID Report Descriptor, use either [`hidrd-convert`](https://github.com/DIGImend/hidrd)
 or https://eleccelerator.com/usbdescreqparser/
+
 
 
 
