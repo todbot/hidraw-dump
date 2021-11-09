@@ -12,7 +12,7 @@ including, most importantly, HID Report Descriptors.
 
 Prerequisites: `libudev` and `pkg-config`:
 ```
-apt-get install build-essential pkg-config libudev-dev
+sudo apt-get install build-essential pkg-config libudev-dev
 
 git clone https://github.com/todbot/hidraw-dump
 cd hidraw-dump
